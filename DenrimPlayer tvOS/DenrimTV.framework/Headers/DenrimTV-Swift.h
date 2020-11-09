@@ -207,11 +207,15 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
+@class UIPress;
+@class UIPressesEvent;
 @protocol MTLDevice;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC8DenrimTV8DMTKView")
 @interface DMTKView : MTKView
+- (void)pressesBegan:(NSSet<UIPress *> * _Nonnull)presses withEvent:(UIPressesEvent * _Nullable)event;
+- (void)pressesEnded:(NSSet<UIPress *> * _Nonnull)presses withEvent:(UIPressesEvent * _Nullable)event;
 - (nonnull instancetype)initWithFrame:(CGRect)frameRect device:(id <MTLDevice> _Nullable)device OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
