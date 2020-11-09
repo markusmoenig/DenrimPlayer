@@ -16,26 +16,80 @@
 		2B196FAD2557E07D0098F568 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B196FAB2557E07D0098F568 /* Main.storyboard */; };
 		2B196FB02557E07D0098F568 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B196FAE2557E07D0098F568 /* LaunchScreen.storyboard */; };
 		2B196FB92557E07D0098F568 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B196FB82557E07D0098F568 /* AppDelegate.swift */; };
-		2B196FBB2557E07D0098F568 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B196FBA2557E07D0098F568 /* GameViewController.swift */; };
 		2B196FBE2557E07D0098F568 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B196FBC2557E07D0098F568 /* Main.storyboard */; };
-		2B196FC12557E07D0098F568 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 2B196F8B2557E07A0098F568 /* Shaders.metal */; };
-		2B196FC22557E07D0098F568 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 2B196F8B2557E07A0098F568 /* Shaders.metal */; };
-		2B196FC32557E07D0098F568 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 2B196F8B2557E07A0098F568 /* Shaders.metal */; };
-		2B196FC42557E07D0098F568 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B196F8C2557E07A0098F568 /* Renderer.swift */; };
-		2B196FC52557E07D0098F568 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B196F8C2557E07A0098F568 /* Renderer.swift */; };
-		2B196FC62557E07D0098F568 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B196F8C2557E07A0098F568 /* Renderer.swift */; };
-		2B196FC72557E07D0098F568 /* ShaderTypes.h in Resources */ = {isa = PBXBuildFile; fileRef = 2B196F8D2557E07A0098F568 /* ShaderTypes.h */; };
-		2B196FC82557E07D0098F568 /* ShaderTypes.h in Resources */ = {isa = PBXBuildFile; fileRef = 2B196F8D2557E07A0098F568 /* ShaderTypes.h */; };
-		2B196FC92557E07D0098F568 /* ShaderTypes.h in Resources */ = {isa = PBXBuildFile; fileRef = 2B196F8D2557E07A0098F568 /* ShaderTypes.h */; };
 		2B196FCA2557E07D0098F568 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B196F8E2557E07D0098F568 /* Assets.xcassets */; };
 		2B196FCB2557E07D0098F568 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B196F8E2557E07D0098F568 /* Assets.xcassets */; };
 		2B196FCC2557E07D0098F568 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B196F8E2557E07D0098F568 /* Assets.xcassets */; };
+		2B19714E2558D0220098F568 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B19714D2558D0220098F568 /* GameViewController.swift */; };
+		2B1971642558D44B0098F568 /* game.denrim in Resources */ = {isa = PBXBuildFile; fileRef = 2B1971632558D44B0098F568 /* game.denrim */; };
+		2B1971652558D44B0098F568 /* game.denrim in Resources */ = {isa = PBXBuildFile; fileRef = 2B1971632558D44B0098F568 /* game.denrim */; };
+		2B1971662558D44B0098F568 /* game.denrim in Resources */ = {isa = PBXBuildFile; fileRef = 2B1971632558D44B0098F568 /* game.denrim */; };
+		2B1971A02558DD190098F568 /* SourceCodePro.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 2B19719A2558DD190098F568 /* SourceCodePro.tiff */; };
+		2B1971A12558DD190098F568 /* SourceCodePro.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 2B19719A2558DD190098F568 /* SourceCodePro.tiff */; };
+		2B1971A22558DD190098F568 /* SourceCodePro.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 2B19719A2558DD190098F568 /* SourceCodePro.tiff */; };
+		2B1971A32558DD190098F568 /* Square.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B19719B2558DD190098F568 /* Square.json */; };
+		2B1971A42558DD190098F568 /* Square.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B19719B2558DD190098F568 /* Square.json */; };
+		2B1971A52558DD190098F568 /* Square.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B19719B2558DD190098F568 /* Square.json */; };
+		2B1971A62558DD190098F568 /* OpenSans.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 2B19719C2558DD190098F568 /* OpenSans.tiff */; };
+		2B1971A72558DD190098F568 /* OpenSans.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 2B19719C2558DD190098F568 /* OpenSans.tiff */; };
+		2B1971A82558DD190098F568 /* OpenSans.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 2B19719C2558DD190098F568 /* OpenSans.tiff */; };
+		2B1971A92558DD190098F568 /* OpenSans.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B19719D2558DD190098F568 /* OpenSans.json */; };
+		2B1971AA2558DD190098F568 /* OpenSans.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B19719D2558DD190098F568 /* OpenSans.json */; };
+		2B1971AB2558DD190098F568 /* OpenSans.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B19719D2558DD190098F568 /* OpenSans.json */; };
+		2B1971AC2558DD190098F568 /* SourceCodePro.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B19719E2558DD190098F568 /* SourceCodePro.json */; };
+		2B1971AD2558DD190098F568 /* SourceCodePro.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B19719E2558DD190098F568 /* SourceCodePro.json */; };
+		2B1971AE2558DD190098F568 /* SourceCodePro.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B19719E2558DD190098F568 /* SourceCodePro.json */; };
+		2B1971AF2558DD190098F568 /* Square.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 2B19719F2558DD190098F568 /* Square.tiff */; };
+		2B1971B02558DD190098F568 /* Square.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 2B19719F2558DD190098F568 /* Square.tiff */; };
+		2B1971B12558DD190098F568 /* Square.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 2B19719F2558DD190098F568 /* Square.tiff */; };
+		2B40DAC025590F75001FC5F1 /* DenrimDesktop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B40DABC25590F6F001FC5F1 /* DenrimDesktop.framework */; };
+		2B40DAC125590F75001FC5F1 /* DenrimDesktop.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2B40DABC25590F6F001FC5F1 /* DenrimDesktop.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2B40DB3F255910E5001FC5F1 /* DenrimMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B40DB3D255910E2001FC5F1 /* DenrimMobile.framework */; };
+		2B40DB40255910E5001FC5F1 /* DenrimMobile.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2B40DB3D255910E2001FC5F1 /* DenrimMobile.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2B40DB4725591144001FC5F1 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1972182558DE8A0098F568 /* Renderer.swift */; };
+		2B40DB4A25591148001FC5F1 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B40DB4925591148001FC5F1 /* Renderer.swift */; };
+		2B40DBC525591532001FC5F1 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B40DBC425591532001FC5F1 /* Renderer.swift */; };
+		2B8C999C25591C57001A4526 /* DenrimTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8C999925591C3A001A4526 /* DenrimTV.framework */; };
+		2B8C999D25591C57001A4526 /* DenrimTV.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8C999925591C3A001A4526 /* DenrimTV.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		2B19712B2558C96D0098F568 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2B40DAC125590F75001FC5F1 /* DenrimDesktop.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B40DB3B255910AF001FC5F1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2B40DB40255910E5001FC5F1 /* DenrimMobile.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B8C999E25591C57001A4526 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2B8C999D25591C57001A4526 /* DenrimTV.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		2B196F8B2557E07A0098F568 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
-		2B196F8C2557E07A0098F568 /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
-		2B196F8D2557E07A0098F568 /* ShaderTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShaderTypes.h; sourceTree = "<group>"; };
 		2B196F8E2557E07D0098F568 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B196F932557E07D0098F568 /* DenrimPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DenrimPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B196F962557E07D0098F568 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -51,10 +105,23 @@
 		2B196FB12557E07D0098F568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B196FB62557E07D0098F568 /* DenrimPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DenrimPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B196FB82557E07D0098F568 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2B196FBA2557E07D0098F568 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		2B196FBD2557E07D0098F568 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B196FBF2557E07D0098F568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B196FC02557E07D0098F568 /* DenrimPlayer_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DenrimPlayer_macOS.entitlements; sourceTree = "<group>"; };
+		2B19714D2558D0220098F568 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		2B1971632558D44B0098F568 /* game.denrim */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = game.denrim; sourceTree = "<group>"; };
+		2B19719A2558DD190098F568 /* SourceCodePro.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = SourceCodePro.tiff; sourceTree = "<group>"; };
+		2B19719B2558DD190098F568 /* Square.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Square.json; sourceTree = "<group>"; };
+		2B19719C2558DD190098F568 /* OpenSans.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = OpenSans.tiff; sourceTree = "<group>"; };
+		2B19719D2558DD190098F568 /* OpenSans.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = OpenSans.json; sourceTree = "<group>"; };
+		2B19719E2558DD190098F568 /* SourceCodePro.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SourceCodePro.json; sourceTree = "<group>"; };
+		2B19719F2558DD190098F568 /* Square.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Square.tiff; sourceTree = "<group>"; };
+		2B1972182558DE8A0098F568 /* Renderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		2B40DABC25590F6F001FC5F1 /* DenrimDesktop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DenrimDesktop.framework; sourceTree = "<group>"; };
+		2B40DB3D255910E2001FC5F1 /* DenrimMobile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DenrimMobile.framework; sourceTree = "<group>"; };
+		2B40DB4925591148001FC5F1 /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		2B40DBC425591532001FC5F1 /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		2B8C999925591C3A001A4526 /* DenrimTV.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DenrimTV.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B40DB3F255910E5001FC5F1 /* DenrimMobile.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +137,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B8C999C25591C57001A4526 /* DenrimTV.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +145,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B40DAC025590F75001FC5F1 /* DenrimDesktop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,10 +166,9 @@
 		2B196F8A2557E07A0098F568 /* DenrimPlayer Shared */ = {
 			isa = PBXGroup;
 			children = (
-				2B196F8B2557E07A0098F568 /* Shaders.metal */,
-				2B196F8C2557E07A0098F568 /* Renderer.swift */,
-				2B196F8D2557E07A0098F568 /* ShaderTypes.h */,
 				2B196F8E2557E07D0098F568 /* Assets.xcassets */,
+				2B1971632558D44B0098F568 /* game.denrim */,
+				2B1971992558DD190098F568 /* Fonts */,
 			);
 			path = "DenrimPlayer Shared";
 			sourceTree = "<group>";
@@ -117,6 +186,8 @@
 		2B196F952557E07D0098F568 /* DenrimPlayer iOS */ = {
 			isa = PBXGroup;
 			children = (
+				2B40DB3D255910E2001FC5F1 /* DenrimMobile.framework */,
+				2B1972182558DE8A0098F568 /* Renderer.swift */,
 				2B196F962557E07D0098F568 /* AppDelegate.swift */,
 				2B196F982557E07D0098F568 /* GameViewController.swift */,
 				2B196F9A2557E07D0098F568 /* Main.storyboard */,
@@ -129,6 +200,8 @@
 		2B196FA62557E07D0098F568 /* DenrimPlayer tvOS */ = {
 			isa = PBXGroup;
 			children = (
+				2B8C999925591C3A001A4526 /* DenrimTV.framework */,
+				2B40DBC425591532001FC5F1 /* Renderer.swift */,
 				2B196FA72557E07D0098F568 /* AppDelegate.swift */,
 				2B196FA92557E07D0098F568 /* GameViewController.swift */,
 				2B196FAB2557E07D0098F568 /* Main.storyboard */,
@@ -141,13 +214,28 @@
 		2B196FB72557E07D0098F568 /* DenrimPlayer macOS */ = {
 			isa = PBXGroup;
 			children = (
+				2B40DABC25590F6F001FC5F1 /* DenrimDesktop.framework */,
+				2B40DB4925591148001FC5F1 /* Renderer.swift */,
+				2B19714D2558D0220098F568 /* GameViewController.swift */,
 				2B196FB82557E07D0098F568 /* AppDelegate.swift */,
-				2B196FBA2557E07D0098F568 /* GameViewController.swift */,
 				2B196FBC2557E07D0098F568 /* Main.storyboard */,
 				2B196FBF2557E07D0098F568 /* Info.plist */,
 				2B196FC02557E07D0098F568 /* DenrimPlayer_macOS.entitlements */,
 			);
 			path = "DenrimPlayer macOS";
+			sourceTree = "<group>";
+		};
+		2B1971992558DD190098F568 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2B19719A2558DD190098F568 /* SourceCodePro.tiff */,
+				2B19719B2558DD190098F568 /* Square.json */,
+				2B19719C2558DD190098F568 /* OpenSans.tiff */,
+				2B19719D2558DD190098F568 /* OpenSans.json */,
+				2B19719E2558DD190098F568 /* SourceCodePro.json */,
+				2B19719F2558DD190098F568 /* Square.tiff */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +248,7 @@
 				2B196F8F2557E07D0098F568 /* Sources */,
 				2B196F902557E07D0098F568 /* Frameworks */,
 				2B196F912557E07D0098F568 /* Resources */,
+				2B40DB3B255910AF001FC5F1 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -177,6 +266,7 @@
 				2B196FA12557E07D0098F568 /* Sources */,
 				2B196FA22557E07D0098F568 /* Frameworks */,
 				2B196FA32557E07D0098F568 /* Resources */,
+				2B8C999E25591C57001A4526 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -194,6 +284,7 @@
 				2B196FB22557E07D0098F568 /* Sources */,
 				2B196FB32557E07D0098F568 /* Frameworks */,
 				2B196FB42557E07D0098F568 /* Resources */,
+				2B19712B2558C96D0098F568 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -249,10 +340,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B196FC72557E07D0098F568 /* ShaderTypes.h in Resources */,
+				2B1971642558D44B0098F568 /* game.denrim in Resources */,
+				2B1971A62558DD190098F568 /* OpenSans.tiff in Resources */,
 				2B196F9C2557E07D0098F568 /* Main.storyboard in Resources */,
+				2B1971A32558DD190098F568 /* Square.json in Resources */,
+				2B1971A92558DD190098F568 /* OpenSans.json in Resources */,
+				2B1971AF2558DD190098F568 /* Square.tiff in Resources */,
+				2B1971AC2558DD190098F568 /* SourceCodePro.json in Resources */,
 				2B196FCA2557E07D0098F568 /* Assets.xcassets in Resources */,
 				2B196F9F2557E07D0098F568 /* LaunchScreen.storyboard in Resources */,
+				2B1971A02558DD190098F568 /* SourceCodePro.tiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,10 +357,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B196FC82557E07D0098F568 /* ShaderTypes.h in Resources */,
+				2B1971652558D44B0098F568 /* game.denrim in Resources */,
+				2B1971A72558DD190098F568 /* OpenSans.tiff in Resources */,
 				2B196FAD2557E07D0098F568 /* Main.storyboard in Resources */,
+				2B1971A42558DD190098F568 /* Square.json in Resources */,
+				2B1971AA2558DD190098F568 /* OpenSans.json in Resources */,
+				2B1971B02558DD190098F568 /* Square.tiff in Resources */,
+				2B1971AD2558DD190098F568 /* SourceCodePro.json in Resources */,
 				2B196FCB2557E07D0098F568 /* Assets.xcassets in Resources */,
 				2B196FB02557E07D0098F568 /* LaunchScreen.storyboard in Resources */,
+				2B1971A12558DD190098F568 /* SourceCodePro.tiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,9 +374,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B1971662558D44B0098F568 /* game.denrim in Resources */,
+				2B1971A82558DD190098F568 /* OpenSans.tiff in Resources */,
+				2B1971AB2558DD190098F568 /* OpenSans.json in Resources */,
 				2B196FBE2557E07D0098F568 /* Main.storyboard in Resources */,
+				2B1971A22558DD190098F568 /* SourceCodePro.tiff in Resources */,
 				2B196FCC2557E07D0098F568 /* Assets.xcassets in Resources */,
-				2B196FC92557E07D0098F568 /* ShaderTypes.h in Resources */,
+				2B1971A52558DD190098F568 /* Square.json in Resources */,
+				2B1971AE2558DD190098F568 /* SourceCodePro.json in Resources */,
+				2B1971B12558DD190098F568 /* Square.tiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,9 +393,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B196FC42557E07D0098F568 /* Renderer.swift in Sources */,
-				2B196FC12557E07D0098F568 /* Shaders.metal in Sources */,
 				2B196F992557E07D0098F568 /* GameViewController.swift in Sources */,
+				2B40DB4725591144001FC5F1 /* Renderer.swift in Sources */,
 				2B196F972557E07D0098F568 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,9 +403,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B196FC52557E07D0098F568 /* Renderer.swift in Sources */,
-				2B196FC22557E07D0098F568 /* Shaders.metal in Sources */,
 				2B196FAA2557E07D0098F568 /* GameViewController.swift in Sources */,
+				2B40DBC525591532001FC5F1 /* Renderer.swift in Sources */,
 				2B196FA82557E07D0098F568 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,9 +413,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B196FC62557E07D0098F568 /* Renderer.swift in Sources */,
-				2B196FC32557E07D0098F568 /* Shaders.metal in Sources */,
-				2B196FBB2557E07D0098F568 /* GameViewController.swift in Sources */,
+				2B19714E2558D0220098F568 /* GameViewController.swift in Sources */,
+				2B40DB4A25591148001FC5F1 /* Renderer.swift in Sources */,
 				2B196FB92557E07D0098F568 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -477,6 +583,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G6R6L3VH62;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ iOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ iOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ iOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ iOS",
+				);
 				INFOPLIST_FILE = "DenrimPlayer iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -486,7 +601,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.moenig.DenrimPlayer;
 				PRODUCT_NAME = DenrimPlayer;
 				SDKROOT = iphoneos;
-				SWIFT_OBJC_BRIDGING_HEADER = "DenrimPlayer Shared/ShaderTypes.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -499,6 +614,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G6R6L3VH62;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ iOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ iOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ iOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ iOS",
+				);
 				INFOPLIST_FILE = "DenrimPlayer iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -508,7 +632,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.moenig.DenrimPlayer;
 				PRODUCT_NAME = DenrimPlayer;
 				SDKROOT = iphoneos;
-				SWIFT_OBJC_BRIDGING_HEADER = "DenrimPlayer Shared/ShaderTypes.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -522,6 +646,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G6R6L3VH62;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ tvOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ tvOS",
+				);
 				INFOPLIST_FILE = "DenrimPlayer tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -530,7 +661,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.moenig.DenrimPlayer;
 				PRODUCT_NAME = DenrimPlayer;
 				SDKROOT = appletvos;
-				SWIFT_OBJC_BRIDGING_HEADER = "DenrimPlayer Shared/ShaderTypes.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 14.2;
@@ -544,6 +675,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G6R6L3VH62;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ tvOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ tvOS",
+				);
 				INFOPLIST_FILE = "DenrimPlayer tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -552,7 +690,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.moenig.DenrimPlayer;
 				PRODUCT_NAME = DenrimPlayer;
 				SDKROOT = appletvos;
-				SWIFT_OBJC_BRIDGING_HEADER = "DenrimPlayer Shared/ShaderTypes.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 14.2;
@@ -570,6 +708,36 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = G6R6L3VH62;
 				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/DenrimPlayer\\ Shared",
+					"$(PROJECT_DIR)/DenrimPlayer\\ Shared",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+				);
 				INFOPLIST_FILE = "DenrimPlayer macOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -579,7 +747,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.moenig.DenrimPlayer;
 				PRODUCT_NAME = DenrimPlayer;
 				SDKROOT = macosx;
-				SWIFT_OBJC_BRIDGING_HEADER = "DenrimPlayer Shared/ShaderTypes.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -594,6 +762,36 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = G6R6L3VH62;
 				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/DenrimPlayer\\ Shared",
+					"$(PROJECT_DIR)/DenrimPlayer\\ Shared",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+				);
 				INFOPLIST_FILE = "DenrimPlayer macOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -603,7 +801,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.moenig.DenrimPlayer;
 				PRODUCT_NAME = DenrimPlayer;
 				SDKROOT = macosx;
-				SWIFT_OBJC_BRIDGING_HEADER = "DenrimPlayer Shared/ShaderTypes.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;

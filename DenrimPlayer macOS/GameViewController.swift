@@ -7,38 +7,40 @@
 
 import Cocoa
 import MetalKit
+import DenrimDesktop
 
 // Our macOS specific view controller
 class GameViewController: NSViewController {
 
-    var renderer: Renderer!
-    var mtkView: MTKView!
+    var dmtkView    : DMTKView!
+    var renderer    : Renderer!
+
+    var game        : Game!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        guard let mtkView = self.view as? MTKView else {
-            print("View attached to GameViewController is not an MTKView")
+        
+        guard let dmtkView = self.view as? DMTKView else {
+            print("View attached to GameViewController is not an DMTKView")
             return
         }
-
-        // Select the device to render with.  We choose the default device
-        guard let defaultDevice = MTLCreateSystemDefaultDevice() else {
-            print("Metal is not supported on this device")
+        
+        guard let path = Bundle.main.path(forResource: "game", ofType: "denrim", inDirectory: "") else {
             return
+        }        
+        
+        game = Game("com.moenig.DenrimDesktop")
+        renderer = Renderer(game: game, metalKitView: dmtkView)
+        
+        if let gameResource = try? String(contentsOfFile: path, encoding: String.Encoding.utf8) {
+            if let data = gameResource.data(using: .utf8) {
+                game.load(data)
+            }
         }
 
-        mtkView.device = defaultDevice
+        dmtkView.delegate = renderer
 
-        guard let newRenderer = Renderer(metalKitView: mtkView) else {
-            print("Renderer cannot be initialized")
-            return
-        }
-
-        renderer = newRenderer
-
-        renderer.mtkView(mtkView, drawableSizeWillChange: mtkView.drawableSize)
-
-        mtkView.delegate = renderer
+        game.setupView(dmtkView)
+        game.start()
     }
 }

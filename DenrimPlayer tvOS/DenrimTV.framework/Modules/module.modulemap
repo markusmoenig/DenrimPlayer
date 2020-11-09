@@ -1,0 +1,11 @@
+framework module DenrimTV {
+  umbrella header "DenrimTV.h"
+
+  export *
+  module * { export * }
+}
+
+module DenrimTV.Swift {
+    header "DenrimTV-Swift.h"
+    requires objc
+}

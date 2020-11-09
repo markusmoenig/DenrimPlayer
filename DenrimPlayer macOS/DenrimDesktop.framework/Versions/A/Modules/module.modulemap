@@ -1,0 +1,11 @@
+framework module DenrimDesktop {
+  umbrella header "DenrimDesktop.h"
+
+  export *
+  module * { export * }
+}
+
+module DenrimDesktop.Swift {
+    header "DenrimDesktop-Swift.h"
+    requires objc
+}

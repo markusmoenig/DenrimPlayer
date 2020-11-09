@@ -1,0 +1,11 @@
+framework module DenrimMobile {
+  umbrella header "DenrimMobile.h"
+
+  export *
+  module * { export * }
+}
+
+module DenrimMobile.Swift {
+    header "DenrimMobile-Swift.h"
+    requires objc
+}
