@@ -18,27 +18,27 @@
 		</data>
 		<key>Modules/DenrimMobile.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		YKQKiDFx9DoSRdAPK2Ukb2rnfSI=
+		gGlHScr45w1tFjxvi3SVwK9rMnI=
 		</data>
 		<key>Modules/DenrimMobile.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		YKQKiDFx9DoSRdAPK2Ukb2rnfSI=
+		gGlHScr45w1tFjxvi3SVwK9rMnI=
 		</data>
 		<key>Modules/DenrimMobile.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		/6VJcl/SVW3lu77xN+8QlwQRkQ4=
+		vh0Ia3TWAO0eLFgNqHPajyouZag=
 		</data>
 		<key>Modules/DenrimMobile.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		xM6nxkS9HtRl/C2CBI9yDnjNSlw=
+		RP8Oayvo9WEcOTk90iwoHPL/wVY=
 		</data>
 		<key>Modules/DenrimMobile.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		/6VJcl/SVW3lu77xN+8QlwQRkQ4=
+		vh0Ia3TWAO0eLFgNqHPajyouZag=
 		</data>
 		<key>Modules/DenrimMobile.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		xM6nxkS9HtRl/C2CBI9yDnjNSlw=
+		RP8Oayvo9WEcOTk90iwoHPL/wVY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -69,42 +69,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DpFKMkjEU6tGWBJiSABTrZE/BYV6ylN/qfPkOP7RktM=
+			xd1oLr0LQsyfwmbG8vu/Z1tZrx2ix021nv+DLOBXXJU=
 			</data>
 		</dict>
 		<key>Modules/DenrimMobile.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DpFKMkjEU6tGWBJiSABTrZE/BYV6ylN/qfPkOP7RktM=
+			xd1oLr0LQsyfwmbG8vu/Z1tZrx2ix021nv+DLOBXXJU=
 			</data>
 		</dict>
 		<key>Modules/DenrimMobile.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			taaYkfiD27NxAhpja3aZdJ2fxEHO+eemprXYpRAKr0g=
+			a8CPjs7rFZ3J0ZUEjNV5XFfvJQEvq6itkiZ8UaQkDuw=
 			</data>
 		</dict>
 		<key>Modules/DenrimMobile.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1NXq1gEwhZ2ILLx/KLFWUAdFoxSSPvpcuS+4FVWU1+o=
+			PySH3t2ZORdpnGYW57mgzHIiONI/rH4Q/r4EQJ3Qjxc=
 			</data>
 		</dict>
 		<key>Modules/DenrimMobile.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			taaYkfiD27NxAhpja3aZdJ2fxEHO+eemprXYpRAKr0g=
+			a8CPjs7rFZ3J0ZUEjNV5XFfvJQEvq6itkiZ8UaQkDuw=
 			</data>
 		</dict>
 		<key>Modules/DenrimMobile.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1NXq1gEwhZ2ILLx/KLFWUAdFoxSSPvpcuS+4FVWU1+o=
+			PySH3t2ZORdpnGYW57mgzHIiONI/rH4Q/r4EQJ3Qjxc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -39,16 +39,18 @@
 		2B1971AF2558DD190098F568 /* Square.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 2B19719F2558DD190098F568 /* Square.tiff */; };
 		2B1971B02558DD190098F568 /* Square.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 2B19719F2558DD190098F568 /* Square.tiff */; };
 		2B1971B12558DD190098F568 /* Square.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 2B19719F2558DD190098F568 /* Square.tiff */; };
-		2B40DAC025590F75001FC5F1 /* DenrimDesktop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B40DABC25590F6F001FC5F1 /* DenrimDesktop.framework */; };
-		2B40DAC125590F75001FC5F1 /* DenrimDesktop.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2B40DABC25590F6F001FC5F1 /* DenrimDesktop.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		2B40DB3F255910E5001FC5F1 /* DenrimMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B40DB3D255910E2001FC5F1 /* DenrimMobile.framework */; };
-		2B40DB40255910E5001FC5F1 /* DenrimMobile.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2B40DB3D255910E2001FC5F1 /* DenrimMobile.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2B40DB4725591144001FC5F1 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1972182558DE8A0098F568 /* Renderer.swift */; };
 		2B40DB4A25591148001FC5F1 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B40DB4925591148001FC5F1 /* Renderer.swift */; };
 		2B40DBC525591532001FC5F1 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B40DBC425591532001FC5F1 /* Renderer.swift */; };
-		2B78A88825592B48007B67D4 /* DenrimTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B78A88625592B41007B67D4 /* DenrimTV.framework */; };
-		2B78A88925592B48007B67D4 /* DenrimTV.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2B78A88625592B41007B67D4 /* DenrimTV.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		2B78A88B25592B5A007B67D4 /* game.denrim in Resources */ = {isa = PBXBuildFile; fileRef = 2B78A88A25592B5A007B67D4 /* game.denrim */; };
+		2BD2F76E255CBC9D0072938F /* DenrimTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD2F76C255CBC980072938F /* DenrimTV.framework */; };
+		2BD2F76F255CBC9D0072938F /* DenrimTV.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD2F76C255CBC980072938F /* DenrimTV.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2BD2F774255CBD440072938F /* DenrimDesktop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD2F772255CBD3F0072938F /* DenrimDesktop.framework */; };
+		2BD2F775255CBD440072938F /* DenrimDesktop.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD2F772255CBD3F0072938F /* DenrimDesktop.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2BD2F777255CBDFD0072938F /* game.denrim in Resources */ = {isa = PBXBuildFile; fileRef = 2BD2F776255CBDFD0072938F /* game.denrim */; };
+		2BD2F778255CBDFD0072938F /* game.denrim in Resources */ = {isa = PBXBuildFile; fileRef = 2BD2F776255CBDFD0072938F /* game.denrim */; };
+		2BD2F779255CBDFD0072938F /* game.denrim in Resources */ = {isa = PBXBuildFile; fileRef = 2BD2F776255CBDFD0072938F /* game.denrim */; };
+		2BD2F77E255CBF490072938F /* DenrimMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD2F77A255CBE7D0072938F /* DenrimMobile.framework */; };
+		2BD2F77F255CBF490072938F /* DenrimMobile.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD2F77A255CBE7D0072938F /* DenrimMobile.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -58,7 +60,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				2B40DAC125590F75001FC5F1 /* DenrimDesktop.framework in Embed Frameworks */,
+				2BD2F775255CBD440072938F /* DenrimDesktop.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -69,7 +71,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				2B40DB40255910E5001FC5F1 /* DenrimMobile.framework in Embed Frameworks */,
+				2BD2F77F255CBF490072938F /* DenrimMobile.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -80,7 +82,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				2B78A88925592B48007B67D4 /* DenrimTV.framework in Embed Frameworks */,
+				2BD2F76F255CBC9D0072938F /* DenrimTV.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -114,12 +116,12 @@
 		2B19719E2558DD190098F568 /* SourceCodePro.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SourceCodePro.json; sourceTree = "<group>"; };
 		2B19719F2558DD190098F568 /* Square.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Square.tiff; sourceTree = "<group>"; };
 		2B1972182558DE8A0098F568 /* Renderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
-		2B40DABC25590F6F001FC5F1 /* DenrimDesktop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DenrimDesktop.framework; sourceTree = "<group>"; };
-		2B40DB3D255910E2001FC5F1 /* DenrimMobile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DenrimMobile.framework; sourceTree = "<group>"; };
 		2B40DB4925591148001FC5F1 /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
 		2B40DBC425591532001FC5F1 /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
-		2B78A88625592B41007B67D4 /* DenrimTV.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DenrimTV.framework; sourceTree = "<group>"; };
-		2B78A88A25592B5A007B67D4 /* game.denrim */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = game.denrim; sourceTree = "<group>"; };
+		2BD2F76C255CBC980072938F /* DenrimTV.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DenrimTV.framework; sourceTree = "<group>"; };
+		2BD2F772255CBD3F0072938F /* DenrimDesktop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DenrimDesktop.framework; sourceTree = "<group>"; };
+		2BD2F776255CBDFD0072938F /* game.denrim */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = game.denrim; sourceTree = "<group>"; };
+		2BD2F77A255CBE7D0072938F /* DenrimMobile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DenrimMobile.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,7 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B40DB3F255910E5001FC5F1 /* DenrimMobile.framework in Frameworks */,
+				2BD2F77E255CBF490072938F /* DenrimMobile.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +137,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B78A88825592B48007B67D4 /* DenrimTV.framework in Frameworks */,
+				2BD2F76E255CBC9D0072938F /* DenrimTV.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,7 +145,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B40DAC025590F75001FC5F1 /* DenrimDesktop.framework in Frameworks */,
+				2BD2F774255CBD440072938F /* DenrimDesktop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,7 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				2B196F8E2557E07D0098F568 /* Assets.xcassets */,
-				2B78A88A25592B5A007B67D4 /* game.denrim */,
+				2BD2F776255CBDFD0072938F /* game.denrim */,
 				2B1971992558DD190098F568 /* Fonts */,
 			);
 			path = "DenrimPlayer Shared";
@@ -184,7 +186,7 @@
 		2B196F952557E07D0098F568 /* DenrimPlayer iOS */ = {
 			isa = PBXGroup;
 			children = (
-				2B40DB3D255910E2001FC5F1 /* DenrimMobile.framework */,
+				2BD2F77A255CBE7D0072938F /* DenrimMobile.framework */,
 				2B1972182558DE8A0098F568 /* Renderer.swift */,
 				2B196F962557E07D0098F568 /* AppDelegate.swift */,
 				2B196F982557E07D0098F568 /* GameViewController.swift */,
@@ -198,7 +200,7 @@
 		2B196FA62557E07D0098F568 /* DenrimPlayer tvOS */ = {
 			isa = PBXGroup;
 			children = (
-				2B78A88625592B41007B67D4 /* DenrimTV.framework */,
+				2BD2F76C255CBC980072938F /* DenrimTV.framework */,
 				2B40DBC425591532001FC5F1 /* Renderer.swift */,
 				2B196FA72557E07D0098F568 /* AppDelegate.swift */,
 				2B196FA92557E07D0098F568 /* GameViewController.swift */,
@@ -212,7 +214,7 @@
 		2B196FB72557E07D0098F568 /* DenrimPlayer macOS */ = {
 			isa = PBXGroup;
 			children = (
-				2B40DABC25590F6F001FC5F1 /* DenrimDesktop.framework */,
+				2BD2F772255CBD3F0072938F /* DenrimDesktop.framework */,
 				2B40DB4925591148001FC5F1 /* Renderer.swift */,
 				2B19714D2558D0220098F568 /* GameViewController.swift */,
 				2B196FB82557E07D0098F568 /* AppDelegate.swift */,
@@ -344,6 +346,7 @@
 				2B1971A92558DD190098F568 /* OpenSans.json in Resources */,
 				2B1971AF2558DD190098F568 /* Square.tiff in Resources */,
 				2B1971AC2558DD190098F568 /* SourceCodePro.json in Resources */,
+				2BD2F777255CBDFD0072938F /* game.denrim in Resources */,
 				2B196FCA2557E07D0098F568 /* Assets.xcassets in Resources */,
 				2B196F9F2557E07D0098F568 /* LaunchScreen.storyboard in Resources */,
 				2B1971A02558DD190098F568 /* SourceCodePro.tiff in Resources */,
@@ -360,7 +363,7 @@
 				2B1971AA2558DD190098F568 /* OpenSans.json in Resources */,
 				2B1971B02558DD190098F568 /* Square.tiff in Resources */,
 				2B1971AD2558DD190098F568 /* SourceCodePro.json in Resources */,
-				2B78A88B25592B5A007B67D4 /* game.denrim in Resources */,
+				2BD2F778255CBDFD0072938F /* game.denrim in Resources */,
 				2B196FCB2557E07D0098F568 /* Assets.xcassets in Resources */,
 				2B196FB02557E07D0098F568 /* LaunchScreen.storyboard in Resources */,
 				2B1971A12558DD190098F568 /* SourceCodePro.tiff in Resources */,
@@ -373,6 +376,7 @@
 			files = (
 				2B1971A82558DD190098F568 /* OpenSans.tiff in Resources */,
 				2B1971AB2558DD190098F568 /* OpenSans.json in Resources */,
+				2BD2F779255CBDFD0072938F /* game.denrim in Resources */,
 				2B196FBE2557E07D0098F568 /* Main.storyboard in Resources */,
 				2B1971A22558DD190098F568 /* SourceCodePro.tiff in Resources */,
 				2B196FCC2557E07D0098F568 /* Assets.xcassets in Resources */,
@@ -512,6 +516,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -565,6 +571,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -587,6 +595,8 @@
 					"$(PROJECT_DIR)/DenrimPlayer\\ iOS",
 					"$(PROJECT_DIR)/DenrimPlayer\\ iOS",
 					"$(PROJECT_DIR)/DenrimPlayer\\ iOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ iOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ iOS",
 				);
 				INFOPLIST_FILE = "DenrimPlayer iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
@@ -594,6 +604,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.02;
 				PRODUCT_BUNDLE_IDENTIFIER = com.moenig.DenrimPlayer;
 				PRODUCT_NAME = DenrimPlayer;
 				SDKROOT = iphoneos;
@@ -618,6 +629,8 @@
 					"$(PROJECT_DIR)/DenrimPlayer\\ iOS",
 					"$(PROJECT_DIR)/DenrimPlayer\\ iOS",
 					"$(PROJECT_DIR)/DenrimPlayer\\ iOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ iOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ iOS",
 				);
 				INFOPLIST_FILE = "DenrimPlayer iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
@@ -625,6 +638,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.02;
 				PRODUCT_BUNDLE_IDENTIFIER = com.moenig.DenrimPlayer;
 				PRODUCT_NAME = DenrimPlayer;
 				SDKROOT = iphoneos;
@@ -654,12 +668,16 @@
 					"$(PROJECT_DIR)/DenrimPlayer\\ tvOS",
 					"$(PROJECT_DIR)/DenrimPlayer\\ tvOS",
 					"$(PROJECT_DIR)/DenrimPlayer\\ tvOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ tvOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ tvOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ iOS",
 				);
 				INFOPLIST_FILE = "DenrimPlayer tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.02;
 				PRODUCT_BUNDLE_IDENTIFIER = com.moenig.DenrimPlayer;
 				PRODUCT_NAME = DenrimPlayer;
 				SDKROOT = appletvos;
@@ -689,12 +707,16 @@
 					"$(PROJECT_DIR)/DenrimPlayer\\ tvOS",
 					"$(PROJECT_DIR)/DenrimPlayer\\ tvOS",
 					"$(PROJECT_DIR)/DenrimPlayer\\ tvOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ tvOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ tvOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ iOS",
 				);
 				INFOPLIST_FILE = "DenrimPlayer tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.02;
 				PRODUCT_BUNDLE_IDENTIFIER = com.moenig.DenrimPlayer;
 				PRODUCT_NAME = DenrimPlayer;
 				SDKROOT = appletvos;
@@ -745,6 +767,9 @@
 					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
 					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
 					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ iOS",
 				);
 				INFOPLIST_FILE = "DenrimPlayer macOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -752,6 +777,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.02;
 				PRODUCT_BUNDLE_IDENTIFIER = com.moenig.DenrimPlayer;
 				PRODUCT_NAME = DenrimPlayer;
 				SDKROOT = macosx;
@@ -799,6 +825,9 @@
 					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
 					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
 					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ macOS",
+					"$(PROJECT_DIR)/DenrimPlayer\\ iOS",
 				);
 				INFOPLIST_FILE = "DenrimPlayer macOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -806,6 +835,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.02;
 				PRODUCT_BUNDLE_IDENTIFIER = com.moenig.DenrimPlayer;
 				PRODUCT_NAME = DenrimPlayer;
 				SDKROOT = macosx;
