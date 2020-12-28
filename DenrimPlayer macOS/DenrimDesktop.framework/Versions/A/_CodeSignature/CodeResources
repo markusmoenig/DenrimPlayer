@@ -6,11 +6,11 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		xHpp6esz873ONDjtzT/cZ8PLSpk=
+		qur6S3wYlMBtDY6u+Rfb87uksoc=
 		</data>
 		<key>Resources/default.metallib</key>
 		<data>
-		mjj7oN/yabaPlIOkUnUurUG7MjU=
+		yOFwlT6ZOf268/CQSNUlRlsw3L0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -19,56 +19,56 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			13N5ShpZzSMafg6leeiTUBTPlgwsxw9MkR7OqiZIoEI=
+			+pCoYQtxPO8BEbyh5bKveh4RtFKz2dcVorC0BV/fL38=
 			</data>
 		</dict>
 		<key>Headers/DenrimDesktop.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EdVulvy/uiODn8MRS9W1HwqNYdwPArwArTe9M2h2Gzs=
+			toBTCKrsD7TgNI3leOtyda/yq4DF0kR8j/ZXbYiX/D8=
 			</data>
 		</dict>
 		<key>Modules/DenrimDesktop.swiftmodule/Project/x86_64-apple-macos.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fY08/kMbyWU74ox0YSSB1VfEyFeEyghnxmFUxU0RMuQ=
+			DbPW5yjvhZHo54ahFF9fH+o2vznXtHnW7Z1MWh80t8Q=
 			</data>
 		</dict>
 		<key>Modules/DenrimDesktop.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fY08/kMbyWU74ox0YSSB1VfEyFeEyghnxmFUxU0RMuQ=
+			DbPW5yjvhZHo54ahFF9fH+o2vznXtHnW7Z1MWh80t8Q=
 			</data>
 		</dict>
 		<key>Modules/DenrimDesktop.swiftmodule/x86_64-apple-macos.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wEQH8FWBorgSrKaagphLigkuFHSY2Ku9hRygRpbFJCk=
+			cfYFxP6Hb5hhvwk0tVNn5n2n6jRF3+lQCJJdXvuK+6s=
 			</data>
 		</dict>
 		<key>Modules/DenrimDesktop.swiftmodule/x86_64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			za4LTDcoiXUF5dnoREvEfbCKMpyJYWMNXkSkiNFLYeo=
+			XEWn2z57Da06U5N3THYW7PefM/LbEdLTj1iOgweT0MI=
 			</data>
 		</dict>
 		<key>Modules/DenrimDesktop.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wEQH8FWBorgSrKaagphLigkuFHSY2Ku9hRygRpbFJCk=
+			cfYFxP6Hb5hhvwk0tVNn5n2n6jRF3+lQCJJdXvuK+6s=
 			</data>
 		</dict>
 		<key>Modules/DenrimDesktop.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			za4LTDcoiXUF5dnoREvEfbCKMpyJYWMNXkSkiNFLYeo=
+			XEWn2z57Da06U5N3THYW7PefM/LbEdLTj1iOgweT0MI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -82,14 +82,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZprwCVkbX/keWJZ13SBuoprl/61RQwGJWI9Lexvubr8=
+			HS2HUL0ZMCB1HH0pN1gO/IBu77QiqtSxOBPmo0ziuQw=
 			</data>
 		</dict>
 		<key>Resources/default.metallib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VUXjdVbyeRuBgHZMjmyApCgq/K6LIPy4RUVlQ9eo7eI=
+			w/QXxj72i2Tl+39eh/rjdBUczGd6auP+iHMzb3x9Jf4=
 			</data>
 		</dict>
 	</dict>
